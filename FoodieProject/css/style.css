@@ -1,0 +1,35 @@
+.services-svg{
+    width: 70px;
+    height: 70px;
+    fill : var(--bs-primary)
+}
+
+.scroll-to-top{
+    bottom: 40px;
+    right: 40px;
+}
+
+#nav{
+    background-color: #ffffffcc !important;
+    backdrop-filter: blur(5px);
+    z-index: 1001;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.header-logo{
+    width: 40px;
+    transition: 1s;
+}
+.navbar:hover .header-logo{
+    transform: rotate(360deg);
+}
+
+.menu-card{
+    transition: 0.5s !important;
+}
+.menu-card:hover{
+    transform: translateY(-10px) !important;
+}
